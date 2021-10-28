@@ -1,0 +1,15 @@
+C:\Users\Rustam\UTG\intranet_hr_services\src\UtgHRApi\Utg.HR.Dal\bin\Debug\netcoreapp3.1\Utg.HR.Dal.deps.json
+C:\Users\Rustam\UTG\intranet_hr_services\src\UtgHRApi\Utg.HR.Dal\bin\Debug\netcoreapp3.1\Utg.HR.Dal.runtimeconfig.json
+C:\Users\Rustam\UTG\intranet_hr_services\src\UtgHRApi\Utg.HR.Dal\bin\Debug\netcoreapp3.1\Utg.HR.Dal.runtimeconfig.dev.json
+C:\Users\Rustam\UTG\intranet_hr_services\src\UtgHRApi\Utg.HR.Dal\bin\Debug\netcoreapp3.1\Utg.HR.Dal.dll
+C:\Users\Rustam\UTG\intranet_hr_services\src\UtgHRApi\Utg.HR.Dal\bin\Debug\netcoreapp3.1\Utg.HR.Dal.pdb
+C:\Users\Rustam\UTG\intranet_hr_services\src\UtgHRApi\Utg.HR.Dal\bin\Debug\netcoreapp3.1\Utg.HR.Common.dll
+C:\Users\Rustam\UTG\intranet_hr_services\src\UtgHRApi\Utg.HR.Dal\bin\Debug\netcoreapp3.1\Utg.HR.Common.pdb
+C:\Users\Rustam\UTG\intranet_hr_services\src\UtgHRApi\Utg.HR.Dal\obj\Debug\netcoreapp3.1\Utg.HR.Dal.csprojAssemblyReference.cache
+C:\Users\Rustam\UTG\intranet_hr_services\src\UtgHRApi\Utg.HR.Dal\obj\Debug\netcoreapp3.1\Utg.HR.Dal.AssemblyInfoInputs.cache
+C:\Users\Rustam\UTG\intranet_hr_services\src\UtgHRApi\Utg.HR.Dal\obj\Debug\netcoreapp3.1\Utg.HR.Dal.AssemblyInfo.cs
+C:\Users\Rustam\UTG\intranet_hr_services\src\UtgHRApi\Utg.HR.Dal\obj\Debug\netcoreapp3.1\Utg.HR.Dal.csproj.CoreCompileInputs.cache
+C:\Users\Rustam\UTG\intranet_hr_services\src\UtgHRApi\Utg.HR.Dal\obj\Debug\netcoreapp3.1\Utg.HR.Dal.csproj.CopyComplete
+C:\Users\Rustam\UTG\intranet_hr_services\src\UtgHRApi\Utg.HR.Dal\obj\Debug\netcoreapp3.1\Utg.HR.Dal.dll
+C:\Users\Rustam\UTG\intranet_hr_services\src\UtgHRApi\Utg.HR.Dal\obj\Debug\netcoreapp3.1\Utg.HR.Dal.pdb
+C:\Users\Rustam\UTG\intranet_hr_services\src\UtgHRApi\Utg.HR.Dal\obj\Debug\netcoreapp3.1\Utg.HR.Dal.genruntimeconfig.cache

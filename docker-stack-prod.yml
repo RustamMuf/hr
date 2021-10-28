@@ -1,0 +1,22 @@
+version: '3.7'
+services:
+
+  app:
+    image: registry.glonass.ru/utg/intranet_hr_services/hr:prod
+    hostname: intranet-hr_app
+    networks:
+      - utg
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+        delay: 30s
+    ports:
+      - 30015:80
+    stop_grace_period: 1m
+    environment:
+      ASPNETCORE_ENVIRONMENT: Prod
+
+networks:
+  utg:
+    external: true

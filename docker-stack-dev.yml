@@ -1,0 +1,47 @@
+version: '3.7'
+services:
+
+  app:
+    image: registry.glonass.ru/utg/intranet_hr_services/hr:dev
+    hostname: intranet-hr_app
+    networks:
+      - utg
+    deploy:
+      mode: replicated
+      replicas: 1
+      placement: # if you want to deploy the service to specific host(s) [==] - match; [!=] - exclude
+        # max_replicas_per_node: 1
+        constraints: # 
+          # - node.role == worker # by node.role [manager/worker]
+          - node.labels.intranet == true # by label
+      restart_policy:
+        condition: on-failure
+        delay: 30s
+    ports:
+      - 30015:80
+    stop_grace_period: 1m
+    environment:
+      ASPNETCORE_ENVIRONMENT: Dev
+   #### Logiging ####
+    logging:
+      driver: loki
+      options:
+        loki-url: "http://127.0.0.1:3100/loki/api/v1/push"
+        loki-retries: "5"
+        loki-batch-size: "400"
+        loki-pipeline-stages: |
+          - json:
+              expressions:
+                level: level
+                path: path
+                method: method
+                msg: msg
+          - labels:
+              msg: 
+              level:
+              path:
+              method:
+
+networks:
+  utg:
+    external: true
